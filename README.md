@@ -11,6 +11,6 @@ Columns include voter_id, voter_fullname, voter_age, voter_address, district
 Columns include voter_id, cand_id, date
 
 ## Result
-Colmns include district, winner, vote_num
+Colmns include result_id, district, winner, cand_id, vote_num
 
  
