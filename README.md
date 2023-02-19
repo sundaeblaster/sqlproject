@@ -7,6 +7,9 @@ To set up this database a user will need:
 - postgreSQL 15
 - pgAdmin 4 GUI tool
 
+## ERD Diagram
+<img width="512" alt="Screenshot 2023-02-19 at 12 30 31 PM" src="https://user-images.githubusercontent.com/65120062/219964645-ec351c7c-6885-47eb-b623-6cab38aa7e61.png">
+
 ## Tables
 Key:
 - **bold**: primary key
