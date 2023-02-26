@@ -24,7 +24,7 @@ To set up this database a user will need:
 - candidate_party
 - *district_id*
 
-[file path to another document](./candidate.csv)
+[Candidate Sample Data](./candidate.csv)
 
 ### Voter
 - ***voter_id***
@@ -35,15 +35,21 @@ To set up this database a user will need:
 - voter_address
 - *district_id*
 
+[Voter Sample Data](./voter.csv)
+
 ### District
 - ***district_id***
 - district_name
+
+[District Sample Data](./district.csv)
 
 ### Ballot
 - **ballot_id**
 - *voter_id*
 - *candidate_id*
 - date_of_vote
+
+[Ballot Sample Data](./ballot.csv)
 
 ### ElectionOutcome
 - **electionoutcome_id**
@@ -52,6 +58,8 @@ To set up this database a user will need:
 - *district_id*
 - vote_percentage
 - election_year
+
+[ElectionOutcome Sample Data](./electionoutcome.csv)
 
 ## Queries
 
