@@ -24,6 +24,8 @@ To set up this database a user will need:
 - candidate_party
 - *district_id*
 
+[file path to another document](./candidate.csv)
+
 ### Voter
 - ***voter_id***
 - voter_firstname
