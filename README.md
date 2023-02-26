@@ -61,5 +61,33 @@ To set up this database a user will need:
 
 [ElectionOutcome Sample Data](./electionoutcome.csv)
 
-## Queries
+## Sample Queries
+
+##### Finds the name of the oldest voter
+SELECT voter_firstname, voter_yearofbirth
+FROM voter
+WHERE voter_yearofbirth = (SELECT max(voter_yearofbirth) FROM voter)
+
+
+##### Finds names of candidates who were born before 1969 and are in district 1.
+SELECT candidate_firstname, candidate_yearofbirth, district_id
+FROM candidate
+WHERE candidate_yearofbirth < 1969 and district_id = 1
+
+
+##### Finds the voter IDs of those who did not vote on 11-03-18
+SELECT voter_firstname, date_of_vote
+FROM voter, ballot
+WHERE voter.voter_id = ballot.voter_id and date_of_vote not in ('11-03-18')
+ORDER BY date_of_vote
+
+
+##### Finds the name of a voter's dist
+SELECT voter_firstname, district_name
+FROM voter, district
+WHERE voter.district_id = district.district_id
+
+
+
+
 
