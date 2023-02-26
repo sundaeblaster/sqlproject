@@ -1,5 +1,5 @@
 # Voter Information System
-This database features sample voter and candidate data and the organization of this data into tables to create a model electio with ballots. This datebase has multiple tables to organize the data which include: voters, candidates, election, result.
+This database features sample voter and candidate data and the organization of this data into tables to create a model electio with ballots. This datebase has multiple tables to organize the data which include: voter, candidate, ballot, electionoutcome.
 
 ## Requirements
 To set up this database a user will need:
