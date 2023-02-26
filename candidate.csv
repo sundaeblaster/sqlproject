@@ -1,0 +1,5 @@
+"candidate_id","candidate_firstname","candidate_middleintial","candidate_lastname","candidate_yearofbirth","candidate_party","district_id"
+1,"Dwight","L","Eisenhower",1955,"Republican",1
+2,"John","J","Adams",1967,"Democratic",1
+3,"Grover","T","Cleveland",1970,"Democratic",2
+4,"Andrew","R","Jackson",1959,"Republican",2

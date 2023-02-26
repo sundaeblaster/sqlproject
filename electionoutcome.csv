@@ -1,0 +1,5 @@
+"electionoutcome_id","candidate_id","did_win","district_id","vote_percentage","election_year"
+20181,1,False,1,33,2018
+20182,2,True,1,66,2018
+20183,3,True,2,66,2018
+20184,4,False,2,33,2018
