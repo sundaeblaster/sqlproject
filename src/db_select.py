@@ -1,7 +1,15 @@
 import psycopg2
+from configparser import ConfigParser
 
-conn = psycopg2.connect(host="localhost", dbname="voterdata", port=5433, user="postgres",
-password="titan") # this a connection string between the code and the database
+parser = ConfigParser()
+parser.read("/Users/sameer/code/python/dbcode/creds.ini")
+pgcreds = {}
+if parser.has_section("pgdb"):
+    items = parser.items("pgdb")
+    for item in items:
+        pgcreds[item[0]] = item[1]
+
+conn = psycopg2.connect(**pgcreds) # this a connection string between the code and the database
 
 print(type(conn)) # checks if the connection string works
 
